@@ -24,11 +24,11 @@ export function TaskList() {
         isComplete: false
       }
 
-      // let newTasks = [...tasks, task];
-      // setTasks(newTasks);
+      let newTasks = [...tasks, task];
+      setTasks(newTasks);
 
-      setTasks(oldState => [...oldState, task]);
-      setNewTaskTitle('');
+      /* setTasks(oldState => [...oldState, task]);
+      setNewTaskTitle(''); */
 
     } /* else {
       alert("ERROR!!! Valor não Informado!")
